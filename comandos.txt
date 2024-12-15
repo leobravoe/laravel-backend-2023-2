@@ -1,0 +1,17 @@
+Inicializar o servidor:
+
+php artisan serve
+
+Resetar a base dedados:
+
+php artisan reset-database
+
+Rota do admin:
+/admin
+
+Usuário:
+user@user.com.br
+admin@admin.com.br
+
+Senha:
+12345678
