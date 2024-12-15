@@ -1,6 +1,6 @@
 git clone https://github.com/leobravoe/laravel-backend-2023-2.git
 
-cd laravel-dsw2-2024-2
+cd laravel-backend-2023-2
 
 composer update
 
