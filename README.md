@@ -1,3 +1,7 @@
+Comandos para configurar o projeto:
+
+cd documents
+
 git clone https://github.com/leobravoe/laravel-backend-2023-2.git
 
 cd laravel-backend-2023-2
