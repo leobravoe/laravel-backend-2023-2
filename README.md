@@ -26,6 +26,9 @@
 ###### Resetar e configurar o banco de dados utilizando um comando personalizado do Laravel
     php artisan reset-database
 
+###### Colocar o projeto para rodar
+    php artisan serve
+
 # Com o projeto configurado, para atualizar:
 
 ###### Reverter todas as alterações locais ao último commit registrado
