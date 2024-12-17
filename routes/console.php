@@ -35,6 +35,9 @@ Artisan::command('reset-database', function () {
 
     // Executa o script SQL
     try {
+        $pdo = new PDO('mysql:host=127.0.0.1;port=3306', 'root', '');
+        $pdo->exec("CREATE DATABASE IF NOT EXISTS restaurantedb");
+        $pdo->exec("USE restaurantedb");
         DB::unprepared($sql);
         $this->info("Script SQL rodado com sucesso.");
     } catch (Exception $e) {
