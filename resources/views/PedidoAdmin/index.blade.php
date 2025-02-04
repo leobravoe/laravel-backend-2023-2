@@ -4,11 +4,13 @@
     <script src="{{ asset('js/pedidoAdmin.js') }}"></script>
     <div class="col-md-12 container">
         <div class="row">
+            {{-- Esquerda --}}
             <div class="list-group col-md-3 my-3 overflow-auto" style="height: 350px">
                 <a href="{{ url('/admin') }}"class="btn btn-primary w-100 mb-1" style="height:auto; color: black">Voltar</a>
                 <div id="pedido-admin">
                 </div>
             </div>
+            {{-- Meio --}}
             <div class="col-md-6">
                 <div id="" class="col-md-12 aling-center">
                     <div class="number-pedido">
@@ -34,6 +36,7 @@
                     </div>
                 </div>
             </div>
+            {{-- Direita --}}
             <div class="col-md-3 w-25">
                 <div class="col-md-3 w-100">
                     <select id="" class="w-100" style="margin-bottom: 10px" name="Tipo Produtos">
